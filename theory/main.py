@@ -1,7 +1,11 @@
 import run_sleep_tasks
 import run_calc_tasks
 
-
+"""
+    Threads are more efficient than serial in I/O bound
+    But threads behave same as serial in CPU bound
+    Processes have good performance for both
+"""
 print("\n\nStart sleep tasks")
 
 # run sleep tasks
